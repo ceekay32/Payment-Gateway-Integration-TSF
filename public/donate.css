@@ -1,104 +1,99 @@
-
 .footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: rgba(8, 0, 0, 0.74);
-   color: white;
-   text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(8, 0, 0, 0.74);
+  color: white;
+  text-align: center;
 }
-.fa{
-    
-   margin: 25px 50px 25px;
-   color: white;
- 
+.fa {
+  margin: 25px 50px 25px;
+  color: white;
 }
 
-.fa-github:hover{
-color:black;
+.fa-github:hover {
+  color: black;
 }
-.fa-linkedin:hover{
-color:blue;
+.fa-linkedin:hover {
+  color: blue;
 }
-.fa-instagram:hover{
-   color:purple;
-   }
-   .nav-item{
-      margin : 10px;
-   }
-   .nav-subheader{
-       font-size : 15px;
-       font-family: 'Lato', sans-serif;
-   }
-   .nav-header{
-       font-size : 30px;
-       font-family: 'Lato', sans-serif;
-   }
-   .nav-img{
-       width :60px;
-       height :60px;
-       
-   }
-   .color-change{
-      color : rgb(255, 208, 0)
-  }
-body, html {
-    height: 100%;
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
-  
- 
+.fa-instagram:hover {
+  color: purple;
+}
+.nav-item {
+  margin: 10px;
+}
+.nav-subheader {
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
+}
+.nav-header {
+  font-size: 30px;
+  font-family: "Lato", sans-serif;
+}
+.nav-img {
+  width: 60px;
+  height: 60px;
+}
+.color-change {
+  color: rgb(255, 208, 0);
+}
+body,
+html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 .bg-image {
-   /* The image used */
-   background-image: url("images/donate.png");
- 
-   /* Add the blur effect */
-   filter: blur(8px);
-   -webkit-filter: blur(8px);
- 
-   /* Full height */
-   height: 100%;
- 
-   /* Center and scale the image nicely */
-   background-position: center;
-   background-repeat: no-repeat; 
-   background-size: cover; 
- }
- 
- /* Position text in the middle of the page/image */
- .bg-text {
-   background-color: 
-   rgb(0,0,0); /* Fallback color */
-   background-color: rgba(0, 0, 0, 0.664); /* Black w/opacity/see-through */
-   color: white;
-   font-weight: bold;
-   
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   z-index: 2;
-   width: 60%;
-   padding: 20px;
-   text-align: center;
-   font-family: 'Lato', sans-serif;
- }
-h1{
-   color : rgb(255, 208, 0)
+  /* The image used */
+  background-image: url("images/donate.png");
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
- h4{
-    text-align: right;
- }
 
- .razorpay{
-    margin-top:30px;
- }
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.664); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
 
- .razorpay-text{
-    font-size:20px;
-    padding-top:20px;
- }
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 60%;
+  padding: 20px;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+h1 {
+  color: rgb(255, 208, 0);
+}
+h4 {
+  text-align: right;
+}
+
+.razorpay {
+  margin-top: 30px;
+}
+
+.razorpay-text {
+  font-size: 20px;
+  padding-top: 20px;
+}
